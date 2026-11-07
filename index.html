@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07111f"><title>College Football Dynasty</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="#"><span class="brand-mark">CFD</span><span>COLLEGE FOOTBALL <b>DYNASTY</b></span></a><div class="status"><i></i> FRANCHISE MODE <span id="connection">CONNECTING</span></div></header>
+<main>
+<section class="hero"><div><p class="eyebrow">YOUR PROGRAM. YOUR LEGACY.</p><h1>Build a dynasty.</h1><p class="sub">Choose your school, recruit your roster, and take control on the field.</p></div><div class="hero-actions"><button id="resetBtn" class="button secondary">Reset player</button><button id="fullscreenBtn" class="button primary">Full screen</button></div></section>
+<section id="setupPanel" class="setup-panel">
+  <div class="panel-title"><div><p class="eyebrow">FRANCHISE CREATION</p><h2>Choose your college program</h2></div><span class="tag">STARTING BUDGET · $50M</span></div>
+  <div class="setup-controls"><label>College team<select id="schoolSelect"></select></label><button id="createFranchise" class="button primary">Create franchise</button></div>
+  <p class="muted small">Your selected school becomes your program and cannot be selected as your opponent. New franchises start with $50,000,000 and an empty roster.</p>
+</section>
+<section id="franchisePanel" class="franchise-panel hidden">
+  <div class="franchise-top"><div><p class="eyebrow">YOUR PROGRAM</p><h2 id="teamName">Your Team</h2><p class="muted small">Your school is unavailable as an opponent.</p></div><button id="changeSchool" class="button secondary">Change school</button></div>
+  <div class="franchise-stats"><div><small>RECRUITING BUDGET</small><strong id="budget">$50,000,000</strong></div><div><small>ROSTER SIZE</small><strong id="rosterCount">0</strong></div><div><small>SEASON RECORD</small><strong>0–0</strong></div><div><small>WIN COINS</small><strong>0</strong></div></div>
+  <div class="opponent-row"><label>Choose opponent<select id="opponentSelect"></select></label><span class="muted small">Your own school is automatically excluded.</span></div>
+</section>
+<section id="recruitingSection" class="recruiting-section hidden">
+  <div class="section-heading"><div><p class="eyebrow">TRANSFER PORTAL · COLLEGE · HIGH SCHOOL</p><h2>Recruiting board</h2><p class="muted small">Scout prospects, compare attributes, and build any roster combination you want.</p></div><div class="demo-label">SIMULATED DEMO PLAYER DATA</div></div>
+  <div class="filters">
+    <input id="searchInput" placeholder="Search player or position…" aria-label="Search players">
+    <select id="unitFilter"><option value="ALL">All units</option><option value="offense">Offense</option><option value="defense">Defense</option><option value="special teams">Special teams</option></select>
+    <select id="positionFilter"><option value="ALL">All positions</option></select>
+    <select id="typeFilter"><option value="ALL">All prospects</option><option>College player</option><option>High-school recruit</option></select>
+    <select id="yearFilter"><option value="ALL">2024–2027</option><option>2024</option><option>2025</option><option>2026</option><option>2027</option></select>
+    <select id="sortFilter"><option value="overall">Highest overall</option><option value="salary-low">Lowest cost</option><option value="salary-high">Highest cost</option></select>
+  </div>
+  <div class="recruit-layout"><div id="recruitGrid" class="recruit-grid"></div><aside class="roster-panel"><div class="panel-heading">YOUR RECRUITED PLAYERS <span id="rosterBadge">0</span></div><div id="rosterList" class="roster-list"><p class="muted small empty">No players recruited yet. Your roster starts empty.</p></div></aside></div>
+</section>
+<section class="game-layout">
+  <div class="field-shell"><div class="field-label"><span>3D PRACTICE FIELD</span><span>PLAYER-FOLLOW CAMERA</span></div><div id="gameCanvas" aria-label="3D football practice field"></div><div class="field-hud"><div><small>CONTROLLED PLAYER</small><strong>QB · #1</strong></div><div><small>YARD LINE</small><strong id="yardLine">50</strong></div><div><small>SPEED</small><strong id="speed">0.0</strong></div></div></div>
+  <aside class="side-panel"><div class="panel-heading"><span>ON-FIELD CONTROLS</span><span class="live-dot">● LIVE</span></div><div class="control-row"><kbd>W A S D</kbd><span>Move player</span></div><div class="control-row"><kbd>↑ ↓ ← →</kbd><span>Alternative movement</span></div><div class="control-row"><kbd>SHIFT</kbd><span>Sprint</span></div><div class="control-row"><kbd>SPACE</kbd><span>Dive prototype</span></div><div class="control-row"><kbd>DRAG</kbd><span>Rotate camera</span></div><div class="control-row"><kbd>WHEEL</kbd><span>Camera zoom</span></div><div class="divider"></div><div class="panel-heading">DEVELOPMENT STATUS</div><p class="notice">This milestone adds school selection and a local recruiting/franchise prototype. Live football rules, passing, tackling, verified player data, accounts, and cloud saves are not implemented yet.</p></aside>
+</section>
+<section class="bottom-grid"><article class="info-card"><p class="eyebrow">FRANCHISE MANAGEMENT</p><h2>Build your roster your way</h2><p>No forced position quotas. Recruit as many quarterbacks, receivers, defenders, or specialists as you can afford.</p><span class="tag">RECRUITING MILESTONE</span></article><article class="info-card"><p class="eyebrow">ONLINE LEAGUES</p><h2>Season-code foundation</h2><p>Socket.IO rooms remain available as a starting point. Persistent leagues and synchronized live matches are future milestones.</p><span class="tag">MULTIPLAYER FOUNDATION</span></article></section>
+</main>
+<footer>COLLEGE FOOTBALL DYNASTY <span>EARLY DEVELOPMENT BUILD · v0.2</span></footer>
+<script type="module" src="/game.js"></script><script src="/app.js" defer></script>
+</body></html>
