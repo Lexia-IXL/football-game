@@ -1,0 +1,182 @@
+[
+  {
+    "id": "ohio-state",
+    "name": "Ohio State",
+    "primary": "Scarlet",
+    "secondary": "Gray"
+  },
+  {
+    "id": "alabama",
+    "name": "Alabama",
+    "primary": "Crimson",
+    "secondary": "White"
+  },
+  {
+    "id": "georgia",
+    "name": "Georgia",
+    "primary": "Red",
+    "secondary": "Black"
+  },
+  {
+    "id": "texas",
+    "name": "Texas",
+    "primary": "Burnt Orange",
+    "secondary": "White"
+  },
+  {
+    "id": "michigan",
+    "name": "Michigan",
+    "primary": "Maize",
+    "secondary": "Blue"
+  },
+  {
+    "id": "oregon",
+    "name": "Oregon",
+    "primary": "Green",
+    "secondary": "Yellow"
+  },
+  {
+    "id": "penn-state",
+    "name": "Penn State",
+    "primary": "Navy",
+    "secondary": "White"
+  },
+  {
+    "id": "notre-dame",
+    "name": "Notre Dame",
+    "primary": "Blue",
+    "secondary": "Gold"
+  },
+  {
+    "id": "lsu",
+    "name": "LSU",
+    "primary": "Purple",
+    "secondary": "Gold"
+  },
+  {
+    "id": "tennessee",
+    "name": "Tennessee",
+    "primary": "Orange",
+    "secondary": "White"
+  },
+  {
+    "id": "clemson",
+    "name": "Clemson",
+    "primary": "Orange",
+    "secondary": "Purple"
+  },
+  {
+    "id": "florida-state",
+    "name": "Florida State",
+    "primary": "Garnet",
+    "secondary": "Gold"
+  },
+  {
+    "id": "miami",
+    "name": "Miami",
+    "primary": "Orange",
+    "secondary": "Green"
+  },
+  {
+    "id": "usc",
+    "name": "USC",
+    "primary": "Cardinal",
+    "secondary": "Gold"
+  },
+  {
+    "id": "oklahoma",
+    "name": "Oklahoma",
+    "primary": "Crimson",
+    "secondary": "Cream"
+  },
+  {
+    "id": "texas-am",
+    "name": "Texas A&M",
+    "primary": "Maroon",
+    "secondary": "White"
+  },
+  {
+    "id": "auburn",
+    "name": "Auburn",
+    "primary": "Navy",
+    "secondary": "Orange"
+  },
+  {
+    "id": "wisconsin",
+    "name": "Wisconsin",
+    "primary": "Cardinal",
+    "secondary": "White"
+  },
+  {
+    "id": "florida",
+    "name": "Florida",
+    "primary": "Orange",
+    "secondary": "Blue"
+  },
+  {
+    "id": "washington",
+    "name": "Washington",
+    "primary": "Purple",
+    "secondary": "Gold"
+  },
+  {
+    "id": "ucla",
+    "name": "UCLA",
+    "primary": "Blue",
+    "secondary": "Gold"
+  },
+  {
+    "id": "arkansas",
+    "name": "Arkansas",
+    "primary": "Cardinal",
+    "secondary": "White"
+  },
+  {
+    "id": "ole-miss",
+    "name": "Ole Miss",
+    "primary": "Navy",
+    "secondary": "Red"
+  },
+  {
+    "id": "south-carolina",
+    "name": "South Carolina",
+    "primary": "Garnet",
+    "secondary": "Black"
+  },
+  {
+    "id": "kentucky",
+    "name": "Kentucky",
+    "primary": "Blue",
+    "secondary": "White"
+  },
+  {
+    "id": "oklahoma-state",
+    "name": "Oklahoma State",
+    "primary": "Orange",
+    "secondary": "Black"
+  },
+  {
+    "id": "iowa",
+    "name": "Iowa",
+    "primary": "Black",
+    "secondary": "Gold"
+  },
+  {
+    "id": "kansas-state",
+    "name": "Kansas State",
+    "primary": "Purple",
+    "secondary": "White"
+  },
+  {
+    "id": "north-carolina",
+    "name": "North Carolina",
+    "primary": "Carolina Blue",
+    "secondary": "White"
+  },
+  {
+    "id": "michigan-state",
+    "name": "Michigan State",
+    "primary": "Green",
+    "secondary": "White"
+  }
+]
